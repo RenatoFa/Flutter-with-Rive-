@@ -88,7 +88,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         setState(() {
                           isSignInDialogShown = true;
                         });
-                        SignInDialog(context, onClosed: (_) {
+                        signInDialog(context, onClosed: (_) {
                           setState(() {
                             isSignInDialogShown = false;
                           });

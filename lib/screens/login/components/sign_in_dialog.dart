@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 
 import 'sign_in_form.dart';
 
-Future<Object?> SignInDialog(BuildContext context,
+Future<Object?> signInDialog(BuildContext context,
     {required ValueChanged onClosed}) {
   return showGeneralDialog(
       barrierDismissible: true,
